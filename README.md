@@ -108,7 +108,7 @@ Hello world에서 조금 더 나아간 수준
 - 산술연산자와 number형을 가지고 새로운 값을 계산해낼 수 있습니다
 - a++, ++a 그리고 a--, --a의 차이점을 이해하고 설명할 수 있습니다
 - 할당연산자의 역할 그리고 할당연산자와 산술연산자의 혼종을 이해하고 설명할 수 있습니다
-- 논리연산자와 boolean형을 통해 true, false를 계산할 수 있습니다
+- 비교연산자, 논리연산자와 boolean형을 통해 true, false를 계산할 수 있습니다
 
 노트
 
@@ -125,7 +125,12 @@ Hello world에서 조금 더 나아간 수준
 - 연산자
   - 산술연산자 : number가지고 사칙연산같은 계산을 함 (컴퓨터는 계산기)
   - 할당연산자 : 변수에 값을 할당하는 연산자
-  - 논리연산자 : boolean타입의 변수를 가지고 true, false를 계산함
+  - 비교연산자, 논리연산자 : boolean타입의 변수를 가지고 true, false를 계산함
+
+**After**
+
+확실히 메모리같은 이야기 안하니 쉽게 이해하는 듯 하다\
+앞으로도 이런 식으로 최대한 간단하게 설명해야겠다
 
 ### Chapter 4 - Conditional Statement, Loop (Conditional statement only)
 
@@ -145,5 +150,11 @@ Hello world에서 조금 더 나아간 수준
 노트
 
 - if, if-else
-- falsy값 : 0, "", NaN (Not a Number), undefined, null (이것들 제외하고 )
+- falsy값 : 0, "", NaN (Not a Number), undefined, null (이것들 제외하고 다 truthy)
 - switch-case
+
+**After**
+
+뭔가 지금의 나한테는 당연하게 받아들여지는 if-else를 자세히 보면서 이해하려고\
+하는 모습을 보면 느낌이 이상하다. 나도 10년전에는 이런 식으로 했을텐데.\
+초심자의 마음으로 알려주자!
